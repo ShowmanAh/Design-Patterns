@@ -1,5 +1,7 @@
 <?php
 namespace Test;
+
+require "../vendor/autoload.php";
 use Acme\Creational\FactoryMethod\BmwCarBrand;
 use Acme\Creational\FactoryMethod\BmwBrandFactory;
 use PHPUnit\Framework\TestCase;
