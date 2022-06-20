@@ -2,10 +2,10 @@
 
 namespace Acme\Creational\FactoryMethod;
 
-class ToyotaBrandFactory implements BrandFactory
+class ToyotaBrandFactory extends BrandFactory
 {
 
-    public function buildBrand()
+    public function buildBrand(): CarBrandInterface
     {
         return new ToyotaCarBrand();
     }
