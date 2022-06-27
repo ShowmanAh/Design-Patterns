@@ -4,6 +4,7 @@ namespace Test;
 require "../vendor/autoload.php";
 use Acme\Creational\AbstractFactory\AbstractFactoryCar;
 use Acme\Creational\AbstractFactory\BmwCar;
+use Acme\Creational\AbstractFactory\Example\Template;
 use Acme\Creational\AbstractFactory\ToyotaCar;
 use PHPUnit\Framework\TestCase;
 
@@ -23,5 +24,10 @@ public function testCanCalculatePrice(){
     $bmwCar = (new AbstractFactoryCar(200.0))->createBmwCar();
     $this->assertTrue(true);
     $this->assertIsFloat($bmwCar->calculatePrice());
+}
+public function testCanInstanceOfTemplate()
+{
+    $template = new Template('title', 'content');
+    $this->assertInstanceOf(Template::class, $template);
 }
 }

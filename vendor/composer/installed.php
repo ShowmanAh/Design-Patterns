@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '14413868bfef3fa725bb1710634cbb30fafefbfa',
         'name' => 'showman-ah/design-pattern-course',
         'dev' => true,
     ),
@@ -245,12 +245,12 @@
             'dev_requirement' => false,
         ),
         'showman-ah/design-pattern-course' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '14413868bfef3fa725bb1710634cbb30fafefbfa',
             'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
